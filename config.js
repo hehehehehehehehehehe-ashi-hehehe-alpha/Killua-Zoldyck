@@ -17,20 +17,20 @@ global.APIKeys = {
 
 // Other
 global.options = {
-    autoRead: true,
+    autoRead: false,
     self: true,
     mute: false
 }
 
 global.prefa = /^[zZ#$+.?_&<>!/\\]/
-global.owner = ["62812XXX"]
+global.owner = ["6288239928939"]
 global.sessionName = {
     legacy: "/tmp/killua-legacy",
     multi: "/tmp/killua-multi"
 }
 
-global.packname = "zenzapi"
-global.author = "https://zenzapis.xyz"
+global.packname = ""
+global.author = ""
 
 global.mess = (type, m) => {
     let msg = {
