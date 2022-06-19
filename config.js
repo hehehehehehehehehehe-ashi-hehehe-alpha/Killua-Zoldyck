@@ -18,7 +18,7 @@ global.APIKeys = {
 // Other
 global.options = {
     autoRead: false,
-    self: true,
+    self: false,
     mute: false
 }
 
